@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+:root {
+    --primary-color: #84cc16  ;
+    --secondary-color: #65A30D #C026D3 #BE185D #22C55E #4ADE80;
+    color: #15803D #B91C1C;
+}
+
+body {
+    margin: 0rem;
+    font-family: 'Poppins', sans-serif;
+}
+/* Navbar Styling */
+.navbar {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1.2rem;
+} 
+
+.navbrand {
+    padding: 0.5rem;
+}
+.nav-pills {
+    text-align: right;
+    padding-top : 0rem;
+    margin: 0rem;
+    margin-left: 25rem;
+    display: inline;
+    font-size: larger;
+}
+
+.active-link {
+    cursor: default;
+    padding: 0.5rem 0rem;
+    border-bottom: 2px solid #fff;
+}
+
+.non-bullet {
+    list-style: none;
+    padding: 0.5rem 0.5rem;
+}
+
+.inline {
+    display: inline;
+}
+
+h1 {
+    margin: 0rem;
+    padding: 0.5rem 0.5rem 0rem;
+    display: inline-block;
+    color: #f8fafc;
+}
+
+
+
+
+/* Description styling */
+.description {
+    text-align: center;
+    font-size: large;
+}
+
+.container {
+    margin: 2rem 20rem ;
+    /* padding: 0.5rem 20rem 1rem; */
+    padding: 0.5rem 1rem;
+
+    text-align: center;
+    background-color: #d9f99d;
+}
+
+h3 {
+    margin-top: 0.2rem;
+}
+
+h2 {
+    color: #3f6212;
+}
+/* Input Styling */
+input {
+    display: inline-block;
+    margin: auto;
+    padding: 0.5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.input-fields {
+    text-align: left;
+    padding: 1rem;
+    margin: auto 11rem;
+}
+
+button {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 2px;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+
+/* Output Message styling */
+.output-msg {
+    margin: 1.5rem auto;
+    max-width: 450px;
+    background-color: whitesmoke;
+    min-height: 2rem;
+    font-weight: bold;
+    color : #15803D;
+}
+
+.green-message {
+    color: #15803D;
+}
+
+.red-message {
+    color: #B91C1C;
+}
+
+
+/* Footer stlying */
+footer {
+    padding: 1rem;
+}
+
+
+.social-media {
+    margin-bottom: 0rem;
+    background-color: var(--primary-color);
+    color: #f8fafc;
+}
+
+.social-media-link {
+    padding: 0rem 1.5rem;
+}
+.link {
+    color: #f8fafc;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+
+.center {
+    text-align: center;
+    margin: 10px auto 10px;
+}
