@@ -1,7 +1,7 @@
 const input1 = document.querySelector("#angle-1");
 const input2 = document.querySelector("#angle-2");
 const input3 = document.querySelector("#angle-3");
-const checkBtn = document.querySelector(".check-button");
+const checkBtn = document.querySelector(".triangle-check-button");
 var outputMsg = document.querySelector(".output-msg");
 
 var ang1 = Number(input1.value);
