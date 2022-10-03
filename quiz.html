@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/sytles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-brand">
+            <h1>Fun With Triangles</h1>
+            <ul class="nav-pills non-bullet">
+                <li class="inline non-bullet"><a class="link " target="_blank" href="/">Is Triangle ?</a></li>
+                <li class="inline non-bullet "><a class="link active-link" href="/quiz.html">Quiz</a></li>
+                <li class="inline non-bullet"><a class="link " target="_blank" href="">Hypotenuse</a></li>
+                <li class="inline non-bullet"><a class="link" target="_blank" href="">Area Of Triangle</Area></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="quiz-description">
+            <h2>A Triangle Quiz</h2>
+            <p>For a each correct answer, you will get 1 point.</p>
+    </div>
+
+    <form class="quiz-form">    
+        <div class="question-container">
+            <p class="questions">Q1. What is the third angle for the triangle where angle1 = 60° and angle2 = 30°?</p>
+            <label><input type="radio" value="45" name="q1">45°</label>
+            <label><input type="radio" value="90" name="q1">90°</label>
+            <label><input type="radio" value="60" name="q1">60°</label>
+        </div>
+
+        <div class="question-container">
+            <p class="questions">Q2.  What is the type of the triangle when angle1 = 45° and angle2 = 45°?</p>
+            <label><input type="radio" value="obtuse" name="q2">Obtuse</label>
+            <label><input type="radio" value="acute" name="q2">Acute</label>
+            <label><input type="radio" value="right" name="q2">Right</label>
+        </div>
+
+        <div class="question-container">
+            <p class="questions">Q3. A triangle can have __________ ?</p>
+            <label><input type="radio" value="one" name="q3">one right angle</label>
+            <label><input type="radio" value="two" name="q3">two right angle</label>
+            <label><input type="radio" value="three" name="q3">three right angle</label>
+        </div>
+
+        <div class="question-container">
+            <p class="questions">Q4. Which of the following can form a right angled triangle?</p>
+            <label><input type="radio" value="45,120,35" name="q4">45°, 120°, 35°</label>
+            <label><input type="radio" value="45,90,45" name="q4">45°, 90°, 45°</label>
+            <!-- <label><input type="radio" value="" name="q4"></label> -->
+        </div>
+
+        <div class="question-container">
+            <p class="questions">Q5. Which of the following triangles are always similar?</p>
+            <label><input type="radio" value="Isosceles" name="q5">Isosceles Triangle</label>
+            <label><input type="radio" value="Equilateral" name="q5">Equilateral Triangle</label>
+            <label><input type="radio" value="RightAngled " name="q5">Right Angled Triangle</label>
+        </div>
+
+        <div class="question-container">
+            <p class="questions">Q6. If the largest angle in a triangle is 70°, what is the least possible value of the smallest angle of the triangle? </p>
+            <label><input type="radio" value="30" name="q6">30</label>
+            <label><input type="radio" value="10" name="q6">10</label>
+            <!-- <label><input type="radio" value="" name="q6"></label> -->
+        </div>
+
+        <div class="question-container">
+            <p class="questions">Q7.The perimeter of scalene triangle with sides a, b, c is _____.</p>
+            <label><input type="radio" value="a+b+c" name="q7">a + b + c</label>
+            <label><input type="radio" value="2a" name="q7">2a</label>
+            <label><input type="radio" value="none" name="q7">None of these</label>
+        </div>
+
+        <div class="question-container">
+            <p class="questions">Q8. Which of the following sides can form a right angled triangle.</p>
+            <label><input type="radio" value="14,15,26" name="q8">14, 15, 26 </label>
+            <label><input type="radio" value="1,2,3" name="q8">1, 2, 3</label>
+            <label><input type="radio" value="12,16,25" name="q8">12, 16, 25</label>
+            <label><input type="radio" value="5,7,8" name="q8">5, 7, 8</label>
+        </div>
+
+        <div class="question-container">
+            <p class="questions">Q9.  A scalene triangle has ___ lines of symmetry.</p>
+            <label><input type="radio" value="2" name="q9">2</label>
+            <label><input type="radio" value="15" name="q9">15</label>
+            <label><input type="radio" value="none" name="q9">None</label>
+        </div>
+
+        <div class="question-container">
+            <p class="questions">Q10. There is a right triangle PQR where: angle Q = 90°; angle P = angle R. What is the measure of angles P and R?</p>
+            <label><input type="radio" value="85" name="q10">85</label>
+            <label><input type="radio" value="45" name="q10">45</label>
+            <label><input type="radio" value="65" name="q10">65</label>
+        </div>
+    </form>
+
+    
+    <button class="quiz-check-button">Check</button>
+
+    <div class="output-msg"></div>
+
+
+
+
+    <footer class="social-media center" >
+        <h3>Social Media</h3>
+        <ul>
+            <li class="inline non-bullet"><a class="link social-media-link" style = "color: #f8fafc" target="_blank" href="https://github.com/rahulmeher23"><i class="fa-brands fa-github favicon fa-2x"></i></a></li>
+            <li class="inline non-bullet"><a class="link social-media-link" style = "color: #f8fafc"target="_blank" href="https://linkedin.com/in/rahul--meher"><i class="fa-brands fa-linkedin favicon fa-2x"></i></a></li>
+            <li class="inline non-bullet"><a class="link social-media-link" target="_blank" href="/NO TWITTER ACCOUNT"><i class="fa-brands fa-square-twitter favicon fa-2x"></i></a></li>
+        </ul>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/1136efa342.js" crossorigin="anonymous"></script>
+    <script src="/quiz.js"></script>
+</body>
+</html>
