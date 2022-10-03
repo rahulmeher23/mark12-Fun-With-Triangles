@@ -78,7 +78,8 @@ h2 {
     color: #3f6212;
 }
 /* Input Styling */
-input {
+
+.angle-input {
     display: inline-block;
     margin: auto;
     padding: 0.5rem;
@@ -92,7 +93,7 @@ input {
     margin: auto 11rem;
 }
 
-button {
+.triangle-check-button {
     display: block;
     margin: auto;
     text-align: center;
@@ -107,6 +108,7 @@ button {
 /* Output Message styling */
 .output-msg {
     margin: 1.5rem auto;
+    text-align: center;
     max-width: 450px;
     background-color: whitesmoke;
     min-height: 2rem;
@@ -147,4 +149,47 @@ footer {
 .center {
     text-align: center;
     margin: 10px auto 10px;
+}
+
+/* Quiz Styling */
+
+.quiz-description {
+    margin: auto;
+    text-align: center;
+}
+
+.quiz-form {
+    text-align: center;
+    margin: 1rem 21rem;
+}
+
+.question-container {
+    margin: auto;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #ecfccb;
+}
+
+.questions {
+    color: #15803D;
+}
+
+label {
+    margin : 1rem
+}
+
+.quiz-check-button {
+    display: block;
+    margin: 2rem auto;
+    font-size: large;
+    text-align: center;
+    padding: 1rem 2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
 }
