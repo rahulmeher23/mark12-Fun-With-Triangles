@@ -193,3 +193,30 @@ label {
     color: white;
     cursor: pointer;
 }
+
+/* Hypotenuse styling */
+
+.block {
+    display: block;
+    text-align: center;
+    margin:  1rem auto;
+    padding: 0.5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.hypotenuse-input-fields {
+    text-align: center;
+}
+
+.hypotenuse-button {
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 1rem ;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 2px;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
