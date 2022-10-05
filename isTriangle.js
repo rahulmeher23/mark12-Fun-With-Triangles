@@ -29,7 +29,7 @@ function checkTriangle() {
     if (sum == 180) {
         showMessage(`Congratulations! Your values (${ang1}, ${ang2}, ${ang3}) forms a triangle.`);
     } else {
-        showMessage(`Oops! Your values (${ang1}, ${ang2}, ${ang3}) doesn't form a triangle.`);
+        showMessage(`<span style="color:#dc2626">Oops! Your values (${ang1}, ${ang2}, ${ang3}) doesn't form a triangle.`);
     }
 }
 
