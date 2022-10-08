@@ -16,7 +16,9 @@ body {
     margin: 0rem;
     font-family: 'Poppins', sans-serif;
 }
+
 /* Navbar Styling */
+
 .navbar {
     background-color: var(--primary-color);
     color: black;
@@ -26,6 +28,7 @@ body {
 .navbrand {
     padding: 0.5rem;
 }
+
 .nav-pills {
     text-align: right;
     padding-top : 0rem;
@@ -57,10 +60,8 @@ h1 {
     color: #f8fafc;
 }
 
-
-
-
 /* Description styling */
+
 .description {
     text-align: center;
     font-size: large;
@@ -82,6 +83,7 @@ h3 {
 h2 {
     color: #3f6212;
 }
+
 /* Input Styling */
 
 .angle-input {
@@ -111,6 +113,7 @@ h2 {
 }
 
 /* Output Message styling */
+
 .output-msg {
     margin: 1.5rem auto;
     text-align: center;
@@ -131,6 +134,7 @@ h2 {
 
 
 /* Footer stlying */
+
 footer {
     padding: 1rem;
 }
@@ -153,7 +157,7 @@ footer {
 
 .center {
     text-align: center;
-    margin: 10px auto 10px;
+    margin: 10px auto 0px;
 }
 
 /* Quiz Styling */

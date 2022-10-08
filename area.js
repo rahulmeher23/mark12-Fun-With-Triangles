@@ -8,5 +8,13 @@ function calculateArea() {
     output.innerText = `Area of Triangle is: ${area}`;
 }
 
+function clickHandler() {
+    if ((sideInputs[0].value) < 0 || (sideInputs[1].value) < 0) {
+        output.innerHTML = `<span style="color:#dc2626">Please input a valid value.</span>`;
+    } else {
+        calculateArea(); 
+    }
+}
 
-checkBtn.addEventListener("click", calculateArea);
+
+checkBtn.addEventListener("click", clickHandler);

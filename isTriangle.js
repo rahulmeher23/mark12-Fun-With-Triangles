@@ -4,24 +4,12 @@ const input3 = document.querySelector("#angle-3");
 const checkBtn = document.querySelector(".triangle-check-button");
 var outputMsg = document.querySelector(".output-msg");
 
-var ang1 = Number(input1.value);
-var ang2 = Number(input2.value);
-var ang3 = Number(input3.value);
-var sum = ang1 + ang2 + ang3;
-
-
-    
 function showMessage(msg) {
     var output = msg;
     outputMsg.innerHTML = `${output}`;
-
-
 }
 
-function checkTriangle() {
-    var ang1 = Number(input1.value);
-    var ang2 = Number(input2.value);
-    var ang3 = Number(input3.value);
+function checkTriangle(ang1, ang2, ang3) {
     var sum = ang1 + ang2 + ang3;
 
     console.log("sum",sum);
@@ -33,4 +21,16 @@ function checkTriangle() {
     }
 }
 
-checkBtn.addEventListener("click", checkTriangle);
+function clickHandler() {
+    var ang1 = Number(input1.value);
+    var ang2 = Number(input2.value);
+    var ang3 = Number(input3.value);
+
+    if (ang1 < 0 || ang2 < 0 || ang3 < 0) {
+        showMessage(`<span style="color:#dc2626">Please input a valid angle value.</span>`);
+    } else {
+        checkTriangle(ang1, ang2, ang3);
+    }
+}
+
+checkBtn.addEventListener("click", clickHandler);
