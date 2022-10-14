@@ -9,7 +9,7 @@ function calculateArea() {
 }
 
 function clickHandler() {
-    if ((sideInputs[0].value) < 0 || (sideInputs[1].value) < 0) {
+    if ((sideInputs[0].value) <= 0 || (sideInputs[1].value) <= 0 || sideInputs[0].value == "" || sideInputs[0].value == "") {
         output.innerHTML = `<span style="color:#dc2626">Please input a valid value.</span>`;
     } else {
         calculateArea(); 

@@ -26,7 +26,7 @@ function clickHandler() {
     var ang2 = Number(input2.value);
     var ang3 = Number(input3.value);
 
-    if (ang1 < 0 || ang2 < 0 || ang3 < 0) {
+    if (ang1 <= 0 || ang2 <= 0 || ang3 <= 0 || ang1 == "" || ang2 == "" || ang3 == "" ) {
         showMessage(`<span style="color:#dc2626">Please input a valid angle value.</span>`);
     } else {
         checkTriangle(ang1, ang2, ang3);
